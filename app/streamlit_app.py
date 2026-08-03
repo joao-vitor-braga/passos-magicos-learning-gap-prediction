@@ -264,9 +264,10 @@ def matriz_confusao_heatmap(cm: np.ndarray, labels: list, titulo: str, normaliza
     quadros = base.mark_rect().encode(
         color=alt.Color("valor:Q", scale=alt.Scale(scheme="blues"), legend=None)
     )
+    limiar_cor = float(df["valor"].max() * 0.6)
     texto = base.mark_text(fontSize=16, fontWeight="bold").encode(
         text="texto:N",
-        color=alt.condition(alt.datum.valor > (df["valor"].max() * 0.6), alt.value("white"), alt.value("black")),
+        color=alt.condition(alt.datum.valor > limiar_cor, alt.value("white"), alt.value("black")),
     )
     return (quadros + texto).properties(height=260, title=titulo)
 
