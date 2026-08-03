@@ -4,6 +4,8 @@ Projeto desenvolvido no contexto da **Pós-Graduação em Data Analytics (FIAP P
 
 O desafio consiste em identificar, a partir dos indicadores da **Pesquisa Extensiva do Desenvolvimento Educacional (PEDE)**, quais alunos da Associação Passos Mágicos apresentam maior **risco de entrar em defasagem escolar no ano seguinte**, permitindo priorizar acompanhamento pedagógico e psicossocial de forma proativa — antes que a defasagem efetivamente ocorra.
 
+[Acessar deploy da aplicação - Passos Magicos - Learning Gap Prediction / Streamlit](https://pass0s-magicos-learning-gap-prediction.streamlit.app/)
+
 ---
 
 ## Como Executar o Projeto
