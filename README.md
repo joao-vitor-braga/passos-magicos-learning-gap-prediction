@@ -40,7 +40,7 @@ Certifique-se de que os arquivos estão organizados conforme abaixo antes de exe
 ```text
 Datathon/
 ├── app/
-│   ├── streamlit_app.py                              # Aplicação Streamlit principal
+│   ├── streamlit_app.py                    # Aplicação Streamlit principal
 │   └── model/
 │       ├── features_cat.joblib             # Lista de features categóricas
 │       ├── features_num.joblib             # Lista de features numéricas
